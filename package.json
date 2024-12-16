@@ -1,0 +1,21 @@
+{
+  "name": "cadastromeritos",
+  "version": "1.0.0",
+  "description": "API para cadastro de funcionários no sistema de Méritos através de dados vindos do Totvs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Carolina De Nicola",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mssql": "^11.0.1",
+    "winston": "^3.13.1"
+  },
+  "devDependencies": {
+    "cors": "^2.8.5"
+  }
+}
